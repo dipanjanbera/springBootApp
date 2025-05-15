@@ -1,5 +1,5 @@
 server:
-  port: 9001
+  port: 9002
 spring:
   application:
     name: student-rest-service
@@ -10,3 +10,7 @@ spring:
 configuration:
   property:
     value: Hello from Property file
+
+api:
+  performance:
+    threshold: 30

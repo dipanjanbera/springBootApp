@@ -6,7 +6,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "complex")
-public class ComplexProperty extends BaseProperty implements Serializable {
+public class ComplexProperty {
 	private static final long serialVersionUID = 1L;
 }

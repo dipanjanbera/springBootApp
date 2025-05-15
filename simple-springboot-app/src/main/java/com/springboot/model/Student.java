@@ -45,4 +45,14 @@ public class Student implements Serializable {
 	public void setAge(String age) {
 		this.age = age;
 	}
+
+	@Override
+	public String toString() {
+		return "Student{" +
+				"id='" + id + '\'' +
+				", firstName='" + firstName + '\'' +
+				", lastName='" + lastName + '\'' +
+				", age='" + age + '\'' +
+				'}';
+	}
 }
